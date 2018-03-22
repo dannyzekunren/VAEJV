@@ -98,7 +98,7 @@ for i in range(N_TEST_IMG):
     plt.plot(volt, view_data[i+rnd,:],label='data')
     plt.plot(volt, decoded_data[i+rnd,:],linestyle='--',label ='AE')
     plt.legend(loc='upper left')
-    
+  
 #ax = Axes3D(fig)
 #X, Y, Z = encoded_data[:, 0], encoded_data[:, 1], encoded_data[:, 2]
 #for x, y, z, s in zip(X, Y, Z, test_y):
